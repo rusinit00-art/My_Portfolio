@@ -247,3 +247,95 @@ body {
 
 
 
+/* --- About Me Section Styles --- */
+.about-area {
+    min-height: 100vh;
+    padding: 100px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    background-color: #f8f4ff;
+    background-image:
+            radial-gradient(#7b1fa2 0.8px, transparent 0.8px),
+            radial-gradient(at 0% 0%, rgba(123, 31, 162, 0.4) 0px, transparent 70%),
+            radial-gradient(at 100% 0%, rgba(103, 58, 183, 0.35) 0px, transparent 70%),
+            radial-gradient(at 100% 100%, rgba(179, 157, 219, 0.4) 0px, transparent 70%),
+            radial-gradient(at 0% 100%, rgba(225, 190, 231, 0.45) 0px, transparent 70%);
+    background-size: 30px 30px, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+}
+
+.about-container {
+    max-width: 1200px;
+    width: 100%;
+    z-index: 10;
+}
+
+.about-main-content {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.about-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-img-box {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 5px solid #6b5a77;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    background-color: #cdc3c3;
+}
+
+.about-img-box img {
+    width: 130%;
+    height: 130%;
+    object-fit: cover;
+}
+
+.cv-download-btn {
+    background-color: #6d5581;
+    color: white;
+    text-decoration: none;
+    padding: 12px 35px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 15px rgba(49, 27, 146, 0.3);
+}
+
+.cv-download-btn:hover {
+    background-color: #9a029a;
+    transform: translateY(-5px);
+}
+
+.about-right {
+    flex: 1.5;
+}
+
+.about-title {
+    font-size: 3.5rem;
+    color: #311b92;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.about-description {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+}
+
+.
