@@ -151,3 +151,99 @@ body {
     position: relative;
 }
 
+.content-wrapper {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.script-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.8rem;
+    color: #4527a0;
+    z-index: 15;
+    margin-bottom: -50px;
+    position: relative;
+}
+
+.bg-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15vw;
+    color: #311b92;
+    opacity: 0.08;
+    letter-spacing: 15px;
+    z-index: 5;
+}
+
+.profile-container {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+}
+
+.photo-circle {
+    width: 320px; height: 320px; border-radius: 50%; border: 5px solid white;
+    object-fit: cover; z-index: 10; box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.profile-ring {
+    position: absolute; width: 360px; height: 360px; border: 3px dashed #291a6e;
+    border-radius: 50%; animation: rotateRing 20s linear infinite; z-index: 5;
+}
+
+.hero-footer {
+    display: flex; justify-content: space-between; width: 85%;
+    position: relative; z-index: 20; margin-top: 50px;
+}
+
+.signature { font-family: 'Dancing Script', cursive; font-size: 3rem; color: #311b92; }
+
+.cta-btn {
+    background-color: #311b92; color: white; border: none;
+    padding: 12px 28px; border-radius: 30px; cursor: pointer; display: flex; align-items: center; position: relative;
+    z-index: 30
+}
+
+.floating-logo {
+    position: absolute; bottom: 40px; right: 50px; width: 90px; height: 90px;
+    background: white; border-radius: 50%; display: flex; justify-content: center;
+    align-items: center; border: 3px solid #311b92; box-shadow: 0 10px 25px rgba(0,0,0,0.2); z-index: 20;
+}
+
+.badge-img { width: 70%; }
+.plus-icon {
+    position: absolute; bottom: -5px; right: 5px; background-color: lightpink;
+    color: white; width: 30px; height: 30px; border-radius: 50%; display: flex;
+    justify-content: center; align-items: center; font-weight: bold;
+}
+
+.dummy-section {
+    min-height: 100vh;
+    display: flex; justify-content: center; align-items: center;
+    border-top: 2px dashed #ddd; font-size: 2rem; color: #311b92;
+    padding-bottom: 60px;
+}
+
+@keyframes load { to { width: 100%; } }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeInBtn { to { opacity: 1; transform: translateY(0); } }
+@keyframes rotateRing { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.fade-in { animation: fadeIn 1s ease-in forwards; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+
+
+
