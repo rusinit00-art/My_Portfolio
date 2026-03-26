@@ -338,6 +338,13 @@ body {
     text-align: justify;
 }
 
+.hello-text {
+    font-family: "Bitcount Ink", sans-serif;
+    font-size: 3rem;
+    color: #9a029a;
+    font-weight: 700;
+}
+
 .skills-section {
     width: 100%;
     overflow: hidden;
