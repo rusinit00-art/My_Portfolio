@@ -247,7 +247,7 @@ body {
 
 
 
-/* --- About Me Section Styles --- */
+/* -- About-- */
 .about-area {
     min-height: 100vh;
     padding: 100px 10%;
@@ -297,10 +297,17 @@ body {
     background-color: #cdc3c3;
 }
 
+
 .about-img-box img {
-    width: 130%;
-    height: 130%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    object-position: top;
+    display: block;
+    transition: transform 0.4s ease;
+}
+.about-img-box:hover img {
+    transform: scale(1.1);
 }
 
 .cv-download-btn {
@@ -340,8 +347,8 @@ body {
 
 .hello-text {
     font-family: "Bitcount Ink", sans-serif;
-    font-size: 3rem;
-    color: #9a029a;
+    font-size: 4rem;
+    color: #311b92;
     font-weight: 700;
 }
 
