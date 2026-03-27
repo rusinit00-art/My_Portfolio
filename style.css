@@ -43,7 +43,7 @@ body {
     animation: fadeInUp 1.5s ease-out forwards;
 }
 
-.loading-bar-container {
+.loading {
     width: 300px;
     height: 4px;
     background: rgba(255, 255, 255, 0.1);
@@ -131,17 +131,20 @@ body {
     align-items: center;
 }
 
-.nav-links li { cursor: pointer; }
-
-.dot {
-    height: 8px;
-    width: 8px;
-    background-color: #b39ddb;
-    display: inline-block;
-    margin-right: 12px;
-    transform: rotate(45deg);
-    box-shadow: 0 0 10px #b39ddb, 0 0 5px #ffffff;
+.nav-links li {
+    cursor: pointer;
 }
+
+/*.dot {*/
+/*    height: 8px;*/
+/*    width: 8px;*/
+/*    background-color: #b39ddb;*/
+/*    display: inline-block;*/
+/*    margin-right: 12px;*/
+/*    transform: rotate(45deg);*/
+/*    box-shadow: 0 0 10px #b39ddb, 0 0 5px #ffffff;*/
+/*}*/
+
 
 .hero {
     height: calc(100vh - 50px);
@@ -163,7 +166,7 @@ body {
     z-index: 10;
 }
 
-.script-text {
+.text {
     font-family: 'Dancing Script', cursive;
     font-size: 4.8rem;
     color: #4527a0;
@@ -172,7 +175,7 @@ body {
     position: relative;
 }
 
-.bg-title {
+.title {
     font-family: 'Montserrat', sans-serif;
     font-size: 15vw;
     color: #311b92;
@@ -219,7 +222,7 @@ body {
 
 .floating-logo {
     position: absolute; bottom: 40px; right: 50px; width: 90px; height: 90px;
-    background: white; border-radius: 50%; display: flex; justify-content: center;
+    background: #e9cfed; border-radius: 50%; display: flex; justify-content: center;
     align-items: center; border: 3px solid #311b92; box-shadow: 0 10px 25px rgba(0,0,0,0.2); z-index: 20;
 }
 
@@ -341,8 +344,9 @@ body {
 .about-description {
     font-size: 1.15rem;
     line-height: 1.8;
-    color: #333;
+    color: #453e4e;
     text-align: justify;
+    font-family: "MV Boli";
 }
 
 .hello-text {
@@ -390,12 +394,13 @@ body {
 
 
 .skill-card {
+    width: 150px;
+    height: 100px;
     background: linear-gradient(to right, #9c27b0, #c391cc, rgba(79, 38, 87, 0.76));
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 20px;
     padding: 15px 35px;
     min-width: 150px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
