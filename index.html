@@ -26,10 +26,13 @@
     </div>
 </div>
 
-<div id="home-page" style="display: none;">
 
-    <nav class="navbar top-nav">
-        <ul class="nav-links">
+<div id="home-page" style="display: none;">
+        <nav class="navbar top-nav">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-menu">
             <li onclick="goToCover()"><span class="dot"></span> Cover</li>
             <li><a href="#home"><span class="dot"></span> Home</a></li>
             <li><a href="#about-section"><span class="dot"></span> About Me</a></li>
@@ -200,6 +203,59 @@
 
 
 
+    <section id="project" class="project-area">
+        <div class="projects-container">
+            <h2 class="projects-main-title"> Projects</h2>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <div class="pro-img-box">
+                        <img src="assets/image/game.png" alt="Connect 4 Game">
+                    </div>
+                    <div class="pro-content">
+                        <h3>Connect 4 Game</h3>
+                        <p class="pro-details">A classic strategy board game featuring win-detection logic and a smooth UI for two players</p>
+                        <p class="used">(Java, JavaFX, OOP)</p>
+                        <a href="https://github.com/rusinit00-art/Connect-4Game" target="_blank" class="view-btn">
+                            <i class="fa-brands fa-github"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="pro-img-box">
+                        <img src="assets/image/system.png" alt="System Management">
+                    </div>
+                    <div class="pro-content">
+                        <h3>System Management</h3>
+                        <p class="pro-details">A retail management system for electronics shops to handle sales, customer data, and inventory.</p>
+                        <p class="used">(Java, MySQL, MVC Architecture,Jesper)</p>
+
+                        <a href="https://github.com/rusinit00-art/Stock-Managment-System" target="_blank" class="view-btn">
+                            <i class="fa-brands fa-github"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="pro-img-box">
+                        <img src="assets/image/stock.png" alt="Stock Management">
+                    </div>
+                    <div class="pro-content">
+                        <h3>Stock Management System</h3>
+                        <p class="pro-details">Developed to track inventory, sales, and stock levels in real-time. Includes reporting features and automated stock alerts.</p>
+                        <p class="used">(Java, SQL)</p>
+                        <a href="https://github.com/rusinit00-art/" target="_blank" class="view-btn">
+                            <i class="fa-brands fa-github"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
 
@@ -215,7 +271,10 @@
 
 
 
-            <section id="assignment" class="dummy-section"><h1>Assignment Section</h1></section>
+
+
+
+    <section id="assignment" class="dummy-section"><h1>Assignment Section</h1></section>
             <section id="specialties" class="dummy-section"><h1>Specialties Section</h1></section>
             <section id="gallery" class="dummy-section"><h1>Gallery Section</h1></section>
             <section id="contact" class="dummy-section"><h1>Contact Section</h1></section>
