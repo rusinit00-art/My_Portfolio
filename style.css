@@ -543,6 +543,42 @@ body {
     margin-bottom: 15px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.container .link {
+    font-size: 0.85rem;
+    color: #311b92;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid rgba(154, 2, 154, 0.2);
+    padding-bottom: 5px;
+    transition: 0.3s ease;
+}
+
+.container .link i {
+    color: #9a029a;
+    font-size: 0.9rem;
+}
+
+.container .link:hover {
+    color: #9a029a;
+    padding-left: 5px;
+    border-bottom-color: #9a029a;
+}
+
+.education-card {
+    height: auto;
+    justify-content: flex-start;
+}
+
 
 @media (max-width: 1024px) {
     .education-grid {
