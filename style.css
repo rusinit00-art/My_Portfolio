@@ -226,7 +226,9 @@ body {
     align-items: center; border: 3px solid #311b92; box-shadow: 0 10px 25px rgba(0,0,0,0.2); z-index: 20;
 }
 
-.badge-img { width: 70%; }
+.badge-img {
+    width: 70%;
+}
 .plus-icon {
     position: absolute; bottom: -5px; right: 5px; background-color: lightpink;
     color: white; width: 30px; height: 30px; border-radius: 50%; display: flex;
@@ -446,4 +448,113 @@ body {
 @keyframes scrollSkills {
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
+}
+
+
+
+
+
+
+
+
+
+.education-area {
+    min-height: 100vh;
+    padding: 80px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.education-main-title {
+    font-size: 3rem;
+    color: #311b92;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.education-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+    max-width: 1400px;
+
+}
+
+.education-card {
+    flex: 1;
+    min-width: 250px;
+    background: rgba(243, 235, 235, 0.6);
+    backdrop-filter: blur(15px);
+    border: 1.5px solid rgba(154, 2, 154, 0.2);
+    padding: 25px;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.education-card:hover {
+    transform: translateY(10px);
+    background: rgb(238, 220, 241);
+    border-color: #9a029a;
+}
+
+.edu-icon {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #311b92, #9a029a);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.edu-custom-img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.education-card h3 {
+    font-size: 1.15rem;
+    color: #291a6e;
+    margin-bottom: 8px;
+}
+
+.school {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #5e35b1;
+    margin-bottom: 10px;
+}
+
+.edu-details {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 1024px) {
+    .education-grid {
+        flex-wrap: wrap;
+    }
+    .education-card {
+        flex: 1 1 calc(45% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .education-card {
+        flex: 1 1 100%;
+    }
 }
