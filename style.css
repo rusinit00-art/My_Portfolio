@@ -1092,6 +1092,18 @@ case-card p {
 }
 
 
+@media (max-width: 767px) {
+    .assignment-title-wrapper {
+        gap: 10px;
+    }
+
+    .title-repo-link {
+        font-size: 1.8rem;
+    }
+}
+
+
+
 
 
 
