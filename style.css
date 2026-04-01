@@ -1067,6 +1067,22 @@ case-card p {
     transition: 0.3s;
 }
 
+.code {
+    border: 1px solid #311b92;
+    color: #311b92;
+}
+.run {
+    background: linear-gradient(45deg, #7b1fa2, #f57c00);
+    color: white;
+}
+
+.code:hover {
+    background: #311b92;
+    color: white;
+}
+
+
+
 
 
 
