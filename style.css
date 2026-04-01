@@ -1045,6 +1045,30 @@ repo-btn {
     text-transform: uppercase;
 }
 
+case-card p {
+    margin: 10px 0;
+    font-weight: 600;
+    color: #311b92;
+}
+
+.btn-group {
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    flex: 1;
+    text-align: center;
+    padding: 6px;
+    font-size: 0.75rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+
+
 
 
 
