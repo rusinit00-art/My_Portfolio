@@ -977,3 +977,15 @@ body {
     white-space: nowrap;
     flex-shrink: 0;
 }
+repo-btn {
+    background: #311b92;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: 0.3s;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
