@@ -1011,5 +1011,18 @@ repo-btn {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+.case-card {
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(154, 2, 154, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: revealUp 0.6s ease-out forwards;
+    animation-delay: calc(var(--i) * 0.1s);
+    transition: 0.4s;
+}
+
 
 
