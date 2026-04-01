@@ -989,3 +989,15 @@ repo-btn {
     white-space: nowrap;
     flex-shrink: 0;
 }
+
+.repo-btn:hover {
+    background: #9a029a;
+    transform: scale(1.05);
+}
+
+
+.side-header h3 i {
+    font-size: 1.2rem;
+    color: #9a029a;
+}
+
