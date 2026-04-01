@@ -1001,3 +1001,15 @@ repo-btn {
     color: #9a029a;
 }
 
+.repo-btn:hover {
+    background: #9a029a;
+}
+
+
+.cases-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
