@@ -956,3 +956,24 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
 }
+
+.side-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.side-header h3 {
+    color: #311b92;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+
+    white-space: nowrap;
+    flex-shrink: 0;
+}
