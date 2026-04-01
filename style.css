@@ -1031,6 +1031,20 @@ repo-btn {
         transform: translateY(0);
     }
 }
+.case-card:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 30px rgba(154, 2, 154, 0.3);
+    border-color: #9a029a;
+}
+
+.case-tag {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #9a029a;
+    text-transform: uppercase;
+}
+
 
 
 
