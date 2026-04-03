@@ -1162,6 +1162,24 @@ body {
     letter-spacing: 1px;
     font-size: 0.85rem;
 }
+.psy-card {
+    flex: 2;
+}
+.psych-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.spec-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4527a0;
+}
+
 
 
 
