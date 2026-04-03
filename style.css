@@ -1095,3 +1095,20 @@ body {
 
 
 
+
+
+
+
+.special-area {
+    min-height: 100vh;
+    padding: 65px;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
