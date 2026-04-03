@@ -1244,6 +1244,14 @@ body {
 }
 
 
+@media (max-width: 900px) {
+    .special-top-row { flex-direction: column; text-align: center; }
+    .psych-grid { grid-template-columns: 1fr; }
+    .bridge-grid { grid-template-columns: 1fr; }
+ }
+
+
+
 
 
 
