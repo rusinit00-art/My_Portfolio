@@ -1212,6 +1212,40 @@ body {
 }
 
 
+.info-mark:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.tech-psych-bridge { margin-top: 60px; text-align: center; }
+.bridge-title { color: #9a029a; font-size: 1.8rem; margin-bottom: 35px; }
+
+.bridge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.bridge-card {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+    border-radius: 25px;
+    border: 1px solid rgba(154, 2, 154, 0.1);
+    transition: 0.4s ease;
+}
+
+.bridge-card i { font-size: 1.8rem; color: #9a029a; margin-bottom: 15px; }
+
+.bridge-card:hover {
+    background: white;
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(154, 2, 154, 0.2);
+}
+
+
+
+
 
 
 
