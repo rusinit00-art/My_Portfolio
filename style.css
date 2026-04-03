@@ -1179,6 +1179,37 @@ body {
     font-weight: 600;
     color: #4527a0;
 }
+.info-mark {
+    color: #9a029a;
+    font-size: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.info-mark:hover {
+    color: #311b92;
+    transform: scale(1.2);
+}
+
+
+.info-mark .tooltip {
+    visibility: hidden;
+    width: 180px;
+    background-color: #311b92;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 140%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.3s;
+    font-size: 0.75rem;
+    z-index: 10;
+}
 
 
 
