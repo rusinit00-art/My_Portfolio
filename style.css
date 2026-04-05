@@ -1433,6 +1433,31 @@ body {
           }
 }
 
+@media (max-width: 768px) {
+    .modal-content {
+        flex-direction: column;
+        height: auto;
+        max-height: 90vh;
+    }
+    #modalImg, .modal-info {
+        width: 100%;
+    }
+    #modalImg {
+        height: 300px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .category-card {
+        width: calc(50% - 30px);
+    }
+}
+@media (max-width: 768px) {
+    .category-card {
+        width: 100%;
+    }
+}
+
 
 
 
