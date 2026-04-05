@@ -1374,6 +1374,18 @@ body {
     justify-content: center;
     align-items: center;
 }
+.modal-content {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    height: 80vh;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    animation: zoomIn 0.4s ease;
+}
 
 
 
