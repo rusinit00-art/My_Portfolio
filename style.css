@@ -1415,6 +1415,15 @@ body {
     margin-top: 50px;
 }
 
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    color: #7b1fa2;
+}
+
+
 
 
 
