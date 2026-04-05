@@ -1422,6 +1422,17 @@ body {
     z-index: 10;
     color: #7b1fa2;
 }
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    } to
+          {
+              transform: scale(1);
+              opacity: 1;
+          }
+}
+
 
 
 
