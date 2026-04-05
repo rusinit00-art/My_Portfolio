@@ -23,3 +23,23 @@ function goToCover() {
      const navMenu = document.getElementById("nav-menu");
      navMenu.classList.toggle("active");
  }
+
+ function openModal(src, date, title, desc) {
+     document.getElementById('modalImg').src = src;
+     document.getElementById('modalDate').innerText = "Captured on: " + date;
+     document.getElementById('modalTitle').innerText = title;
+     document.getElementById('modalDesc').innerText = desc;
+     document.getElementById('galleryModal').style.display = "flex";
+ }
+
+ function closeModal() {
+     document.getElementById('galleryModal').style.display = "none";
+ }
+
+ // Modal එකෙන් එලිය ක්ලික් කළොත් වැහෙන්න
+ window.onclick = function(event) {
+     let modal = document.getElementById('galleryModal');
+     if (event.target == modal) {
+         closeModal();
+     }
+ }
