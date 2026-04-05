@@ -1341,6 +1341,13 @@ body {
     text-transform: uppercase;
 }
 
+.thumb-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
 
 
 
