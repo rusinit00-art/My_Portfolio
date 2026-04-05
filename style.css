@@ -1315,15 +1315,10 @@ body {
 
 
 
-
-
-
 .gallery-area {
     padding: 80px 5%;
     text-align: center;
 }
-
-
 .category-card {
     width: calc(33.33% - 40px);
     min-width: 320px;
@@ -1427,10 +1422,10 @@ body {
         transform: scale(0.8);
         opacity: 0;
     } to
-          {
-              transform: scale(1);
-              opacity: 1;
-          }
+      {
+          transform: scale(1);
+          opacity: 1;
+      }
 }
 
 @media (max-width: 768px) {
@@ -1457,6 +1452,8 @@ body {
         width: 100%;
     }
 }
+
+
 
 
 
