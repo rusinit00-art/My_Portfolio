@@ -1315,3 +1315,35 @@ body {
 
 
 
+
+
+
+.gallery-area {
+    padding: 80px 5%;
+    text-align: center;
+}
+
+
+.category-card {
+    width: calc(33.33% - 40px);
+    min-width: 320px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 20px;
+    border: 1px solid rgba(154, 2, 154, 0.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+.category-card h3 {
+    color: #311b92;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
