@@ -1386,6 +1386,22 @@ body {
     flex-direction: row;
     animation: zoomIn 0.4s ease;
 }
+#modalImg {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #eee;
+}
+
+.modal-info {
+    width: 30%;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e5d7f3;
+    text-align: left;
+}
 
 
 
