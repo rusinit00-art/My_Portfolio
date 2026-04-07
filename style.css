@@ -1592,6 +1592,19 @@ body {
     color: #9a029a;
 }
 
+.contact-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-link:hover {
+    color: #9a029a;
+}
+
+
 
 
 
