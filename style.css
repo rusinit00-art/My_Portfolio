@@ -1622,6 +1622,21 @@ body {
     filter: grayscale(0%);
     filter: drop-shadow(0 5px 15px rgba(154, 2, 154, 0.4));
 }
+.contact-note {
+    color: #430c43;
+    font-weight: bold;
+    text-align: center;
+}
+.copyright-text {
+    font-size: 0.85rem;
+    color: rgba(136, 136, 136, 0.91);
+    margin-top: 20px;
+    border-top: 1px solid rgba(154, 2, 154, 0.1);
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
 
 
 
