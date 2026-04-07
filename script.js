@@ -36,7 +36,7 @@ function goToCover() {
      document.getElementById('galleryModal').style.display = "none";
  }
 
- // Modal එකෙන් එලිය ක්ලික් කළොත් වැහෙන්න
+
  window.onclick = function(event) {
      let modal = document.getElementById('galleryModal');
      if (event.target == modal) {
