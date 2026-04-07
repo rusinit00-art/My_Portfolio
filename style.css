@@ -1483,6 +1483,21 @@ body {
 
 
 
+.contact-area {
+    min-height: 100vh;
+    padding: 80px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
 
 
 
