@@ -1517,6 +1517,14 @@ body {
     margin-bottom: 60px;
 }
 
+.input-row {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+
 
 
 
