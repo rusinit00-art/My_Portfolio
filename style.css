@@ -1499,6 +1499,13 @@ body {
     align-items: center;
     padding-top: 50px;
 }
+.contact-main-title {
+    font-size: 3.5rem;
+    color: #311b92;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 
 
