@@ -1584,6 +1584,15 @@ body {
     transition: 0.3s ease;
 }
 
+.info-item:hover .custom-icon {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.info-item:hover span {
+    color: #9a029a;
+}
+
+
 
 
 
