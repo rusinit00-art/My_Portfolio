@@ -1540,6 +1540,10 @@ body {
     outline: none;
     transition: 0.4s;
 }
+.input-row input:focus, .input-row textarea:focus {
+    border-bottom-color: #9a029a;
+    background: rgba(154, 2, 154, 0.05);
+}
 
 
 
