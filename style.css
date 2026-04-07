@@ -1506,6 +1506,18 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.contact-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 65px;
+    padding: 50px;
+    width: 100%;
+    border: 1px solid rgba(154, 2, 154, 0.2);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+
+
 
 
 
