@@ -1610,6 +1610,19 @@ body {
     gap: 25px;
     margin-bottom: 30px;
 }
+.social-img-icon {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(20%);
+}
+.social-img-icon:hover {
+    transform: translateY(-5px) scale(1.1);
+    filter: grayscale(0%);
+    filter: drop-shadow(0 5px 15px rgba(154, 2, 154, 0.4));
+}
+
 
 
 
