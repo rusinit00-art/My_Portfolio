@@ -271,7 +271,7 @@ body {
     width: 90px;
     height: 90px;
     background: #e9cfed;
-    border-radius: 50%;
+    border-radius:30% 70% 70% 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -534,7 +534,24 @@ body {
     background-color: #9a029a;
     transform: translateY(-5px);
 }
+/*.about-social-links {*/
+/*    display: flex;*/
+/*    gap: 500px;          !* අයිකන් දෙක අතර පරතරය *!*/
+/*    margin-top: 80px;   !* CV Button එකේ සිට පල්ලෙහාට ඇති ඉඩ *!*/
+/*    justify-content: center;*/
+/*}*/
 
+/*.about-social-links a {*/
+/*    font-size: 5rem;  !* අයිකන් වල size එක *!*/
+/*    color: #4f157e;     !* තද දම් පාට *!*/
+/*    transition: 0.3s ease;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.about-social-links a:hover {*/
+/*    color: #9a029a;     !* මවුස් එක ගෙනිච්චම ලා දම් පාට වීම *!*/
+/*    transform: scale(1.1) translateY(-3px); !* පොඩ්ඩක් ලොකු වී උඩට යාම *!*/
+/*}*/
 .about-right {
     flex: 1.5;
 }
@@ -693,7 +710,7 @@ body {
     backdrop-filter: blur(15px);
     border: 1.5px solid rgba(154, 2, 154, 0.2);
     padding: 25px;
-    border-radius: 20px;
+    border-radius: 60px 10px;
     transition: all 0.4s ease;
     display: flex;
     flex-direction: column;
@@ -736,6 +753,13 @@ body {
     margin-bottom: 10px;
 }
 
+.institute {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #5e35b1;
+    margin-bottom: 10px;
+}
+
 .edu-details {
     font-size: 0.85rem;
     line-height: 1.5;
@@ -752,7 +776,7 @@ body {
 
 .container .link {
     font-size: 0.85rem;
-    color: #311b92;
+    color: rgb(41, 26, 110);
     text-decoration: none;
     font-weight: 600;
     display: flex;
@@ -1452,6 +1476,10 @@ body {
         width: 100%;
     }
 }
+
+
+
+
 
 
 
