@@ -43,3 +43,14 @@ function goToCover() {
          closeModal();
      }
  }
+
+ // Scroll
+ const homePageWrapper = document.getElementById('home-page');
+
+ homePageWrapper.onscroll = function() {
+     let winScroll = homePageWrapper.scrollTop;
+     let height = homePageWrapper.scrollHeight - homePageWrapper.clientHeight;
+     let scrolled = (winScroll / height) * 100;
+
+     document.getElementById("myBar").style.width = scrolled + "%";
+ };

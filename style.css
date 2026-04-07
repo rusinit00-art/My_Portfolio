@@ -8,13 +8,21 @@ html {
     scroll-behavior: smooth;
 }
 
+   /*----tabler icons > svg code > SVG URL Encoder > insrt svg > Ready for CSS (code)---*/
+   /*---- %23 = # mark eka, colours change krnna----- */
+* {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 24 24' fill='none' stroke='%239a029a' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none' /%3E%3Cpath d='M10 12h2a2 2 0 1 0 0 -4h-2v8m4 0l-3 -4' /%3E%3Cpath d='M12 3c7.2 0 9 1.8 9 9c0 7.2 -1.8 9 -9 9c-7.2 0 -9 -1.8 -9 -9c0 -7.2 1.8 -9 9 -9' /%3E%3C/svg%3E") 14 14, auto !important;
+}
+a, button,.nav-links li,.case-card, .spec-card, .info-mark, .viewbtn, .repo-btn, .cv-download-btn, :active {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 24 24' fill='none' stroke='%23311b92' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none' /%3E%3Cpath d='M10 12h2a2 2 0 1 0 0 -4h-2v8m4 0l-3 -4' /%3E%3Cpath d='M12 3c7.2 0 9 1.8 9 9c0 7.2 -1.8 9 -9 9c-7.2 0 -9 -1.8 -9 -9c0 -7.2 1.8 -9 9 -9' /%3E%3C/svg%3E") 14 14, pointer !important;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     overflow: hidden;
     background-color: #f8f4ff;
 }
-
 #loader {
     position: fixed;
     top: 0; left: 0;
@@ -120,6 +128,22 @@ body {
             radial-gradient(at 0% 100%, rgba(225, 190, 231, 0.45) 0px, transparent 70%);
     background-size: 30px 30px, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
 }
+.progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10005;
+    width: 100%;
+    height: 5px;
+    background: transparent;
+}
+.progress-bar {
+    height: 5px;
+    background: linear-gradient(to right, #6a59b6, #c377cf, #6c5cb6);
+    width: 0%;
+    transition: 0.1s;
+    box-shadow: 0 0 10px rgba(154, 2, 154, 0.5);
+}
 
 .navbar {
     background-color: #9a029a;
@@ -131,18 +155,15 @@ body {
     width: 100%;
     z-index: 100;
 }
-
 .top-nav {
     position: sticky;
     top: 0;
 }
-
 .bottom-nav {
     position: fixed;
     bottom: 0;
     left: 0;
 }
-
 .nav-links {
     list-style: none;
     display: flex;
@@ -150,22 +171,18 @@ body {
     font-size: 0.85rem;
     text-transform: uppercase;
 }
-
 .nav-links a {
     text-decoration: none;
     color: inherit;
     display: flex;
     align-items: center;
 }
-
 .nav-links li {
     cursor: pointer;
 }
-
 .menu-icon {
     display: none;
 }
-
 .hero {
     height: calc(100vh - 50px);
     display: flex;
@@ -173,7 +190,6 @@ body {
     align-items: center;
     position: relative;
 }
-
 .content-wrapper {
     text-align: center;
     position: relative;
@@ -185,7 +201,6 @@ body {
     align-items: center;
     z-index: 10;
 }
-
 .text {
     font-family: 'Dancing Script', cursive;
     font-size: 4.8rem;
@@ -194,7 +209,6 @@ body {
     margin-bottom: -50px;
     position: relative;
 }
-
 .title {
     font-family: 'Montserrat', sans-serif;
     font-size: 15vw;
@@ -203,7 +217,6 @@ body {
     letter-spacing: 15px;
     z-index: 5;
 }
-
 .profile-container {
     position: absolute;
     top: 65%;
@@ -216,7 +229,6 @@ body {
     align-items: center;
     z-index: 8;
 }
-
 .photo-circle {
     width: 320px;
     height: 320px;
@@ -226,7 +238,6 @@ body {
     z-index: 10;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
-
 .profile-ring {
     position: absolute;
     width: 360px;
@@ -236,7 +247,6 @@ body {
     animation: rotateRing 20s linear infinite;
     z-index: 5;
 }
-
 .hero-footer {
     display: flex;
     justify-content: space-between;
@@ -245,7 +255,6 @@ body {
     z-index: 20;
     margin-top: 50px;
 }
-
 .signature {
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
@@ -534,24 +543,6 @@ body {
     background-color: #9a029a;
     transform: translateY(-5px);
 }
-/*.about-social-links {*/
-/*    display: flex;*/
-/*    gap: 500px;          !* අයිකන් දෙක අතර පරතරය *!*/
-/*    margin-top: 80px;   !* CV Button එකේ සිට පල්ලෙහාට ඇති ඉඩ *!*/
-/*    justify-content: center;*/
-/*}*/
-
-/*.about-social-links a {*/
-/*    font-size: 5rem;  !* අයිකන් වල size එක *!*/
-/*    color: #4f157e;     !* තද දම් පාට *!*/
-/*    transition: 0.3s ease;*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*.about-social-links a:hover {*/
-/*    color: #9a029a;     !* මවුස් එක ගෙනිච්චම ලා දම් පාට වීම *!*/
-/*    transform: scale(1.1) translateY(-3px); !* පොඩ්ඩක් ලොකු වී උඩට යාම *!*/
-/*}*/
 .about-right {
     flex: 1.5;
 }
@@ -1643,7 +1634,6 @@ body {
     .input-row { flex-direction: column; align-items: flex-start; gap: 5px; }
     .contact-main-title { font-size: 2.5rem; }
 }
-
 
 
 
