@@ -1683,6 +1683,20 @@ body {
 
 
 
+  /*title design*/
+.about-title:hover,
+.education-main-title:hover,
+.projects-main-title:hover,
+.assignment-main-title:hover,
+.special-main-title:hover,
+.contact-main-title:hover {
+    letter-spacing: 1px;
+    filter: drop-shadow(4px 4px 0px rgb(182, 149, 209));
+    transform: scale(1.02);
+}
+
+
+
 
 
 
