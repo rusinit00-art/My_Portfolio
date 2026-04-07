@@ -8,8 +8,8 @@ html {
     scroll-behavior: smooth;
 }
 
-   /*----tabler icons > svg code > SVG URL Encoder > insrt svg > Ready for CSS (code)---*/
-   /*---- %23 = # mark eka, colours change krnna----- */
+/*----tabler icons > svg code > SVG URL Encoder > insrt svg > Ready for CSS (code)---*/
+/*---- %23 = # mark eka, colours change krnna----- */
 * {
     cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 24 24' fill='none' stroke='%239a029a' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none' /%3E%3Cpath d='M10 12h2a2 2 0 1 0 0 -4h-2v8m4 0l-3 -4' /%3E%3Cpath d='M12 3c7.2 0 9 1.8 9 9c0 7.2 -1.8 9 -9 9c-7.2 0 -9 -1.8 -9 -9c0 -7.2 1.8 -9 9 -9' /%3E%3C/svg%3E") 14 14, auto !important;
 }
@@ -1683,7 +1683,7 @@ body {
 
 
 
-  /*title design*/
+/*title design*/
 .about-title:hover,
 .education-main-title:hover,
 .projects-main-title:hover,
@@ -1694,36 +1694,3 @@ body {
     filter: drop-shadow(4px 4px 0px rgb(182, 149, 209));
     transform: scale(1.02);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
