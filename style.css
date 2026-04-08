@@ -689,6 +689,17 @@ body {
     justify-content: center;
 }
 
+.education-main-title:before {
+    content: "\f518";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    font-size: 5rem;
+    color: rgba(154, 2, 154, 0.05);
+    z-index: -1;
+}
 .education-main-title {
     font-size: 3rem;
     color: #311b92;
@@ -842,6 +853,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
+
 
 .project-grid {
     display: grid;
