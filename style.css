@@ -1163,6 +1163,25 @@ body {
     padding: 65px;
     background: transparent;
 }
+.special-main-title {
+    margin: 0;
+    font-size: 3rem;
+    color: #311b92;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.special-main-title:before {
+    content: "\f559";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    font-size: 5rem;
+    color: rgba(154, 2, 154, 0.05);
+    z-index: -1;
+}
 .special-top-row {
     display: flex;
     gap: 40px;
@@ -1381,6 +1400,25 @@ body {
 .gallery-area {
     padding: 80px 5%;
     text-align: center;
+}
+.gallery-main-title {
+    margin: 0;
+    font-size: 3rem;
+    color: #311b92;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.gallery-main-title:before {
+    content: "\f87c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    center:0px;
+    top: -10px;
+    font-size: 5rem;
+    color: rgba(154, 2, 154, 0.05);
+    z-index: -1;
 }
 .category-card {
     width: calc(33.33% - 40px);
@@ -1736,6 +1774,7 @@ body {
 .projects-main-title:hover,
 .assignment-main-title:hover,
 .special-main-title:hover,
+.gallery-main-title:hover,
 .contact-main-title:hover {
     letter-spacing: 1px;
     filter: drop-shadow(4px 4px 0px rgb(182, 149, 209));
