@@ -143,7 +143,7 @@ body {
     background: linear-gradient(to right, #6a59b6, #c377cf, #6c5cb6);
     width: 0%;
     transition: 0.1s;
-    box-shadow: 0 0 10px rgba(154, 2, 154, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .navbar {
