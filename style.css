@@ -853,7 +853,17 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
-
+.projects-main-title:before {
+    content: "\f109";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    font-size: 5rem;
+    color: rgba(154, 2, 154, 0.05);
+    z-index: -1;
+}
 
 .project-grid {
     display: grid;
