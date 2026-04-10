@@ -1754,7 +1754,7 @@ body {
 .status {
     width: 10px;
     height: 10px;
-    background-color: #3a5348;
+    background-color: #266c4d;
     border-radius: 50%;
     box-shadow: 0 0 10px #00ff88;
     animation: blink 1.5s infinite;
