@@ -1004,13 +1004,26 @@ body {
 }
 
 .assignments-wrapper {
-    margin: 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    justify-content: center;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
     align-items: stretch;
 }
 
+@media (max-width: 1300px) {
+    .assignments-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .assignments-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 .assignment-side {
