@@ -1351,7 +1351,9 @@ body {
     transform-style: preserve-3d;
 }
 
-.spec-card:hover .spec-card-inner { transform: rotateY(180deg); }
+.spec-card:hover .spec-card-inner {
+    transform: rotateY(180deg);
+}
 
 .spec-card-front, .spec-card-back {
     position: absolute;
@@ -1373,8 +1375,8 @@ body {
     border-color: #F3D9B8FF;;
 }
 
-.spec-card-front i { font-size: 2rem; color: rgba(79, 56, 85, 0.92); margin-bottom: 10px; }
-.spec-card-front h4 { font-size: 0.90rem; color: #210f71; line-height: 1.2; }
+.spec-card-front i { font-size: 2.5rem; color: rgba(79, 56, 85, 0.92); margin-bottom: 10px; }
+.spec-card-front h4 { font-size: 0.93rem; color: #1c0c61; line-height: 1.2; }
 
 .spec-card-back {
     background: linear-gradient(45deg, rgba(0, 0, 0, 0.65), rgba(195, 115, 195, 0.99));
@@ -1719,7 +1721,7 @@ body {
 }
 .copyright-text {
     font-size: 0.85rem;
-    color: rgba(136, 136, 136, 0.91);
+    color: rgba(97, 97, 97, 0.91);
     margin-top: 20px;
     border-top: 1px solid rgba(154, 2, 154, 0.1);
     padding-top: 20px;
