@@ -1809,3 +1809,12 @@ body {
 .contact-main-title:hover::before {
     opacity: 1;
 }
+
+/*-------------------- fontawesome.com web site-----------------------*/
+.about-title::before { content: "\f007"; }
+.education-main-title::before { content: "\f19d"; }
+.projects-main-title::before { content: "\f109"; }
+.assignment-main-title::before { content: "\f02d"; }
+.special-main-title::before {  content: "\f559"; }
+.gallery-main-title::before {  content: "\f87c" }
+.contact-main-title::before { content: "\f1d8"; }
