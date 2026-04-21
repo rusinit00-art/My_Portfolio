@@ -2116,3 +2116,91 @@ body {
 
 
 
+
+/* ============================================TABLET VIEW (768px - 1024px අතර)====================================================== */
+@media (max-width: 1024px) {
+    .project-area {
+        padding: 60px 5%;
+        height: auto;
+    }
+
+    .projects-main-title {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+
+    .project-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .pro-img-box {
+        height: 180px;
+    }
+}
+
+/* MOBILE PHONE VIEW (767px ට අඩු සියලුම Phones) */
+@media (max-width: 767px) {
+    .project-area {
+        padding: 50px 5% !important;
+        height: auto !important;
+    }
+
+    .projects-main-title {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+
+    .project-grid {
+
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .pro-img-box {
+        height: 200px;
+    }
+
+    .pro-content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .pro-content h3 {
+        font-size: 1.25rem;
+    }
+
+    .pro-details {
+        font-size: 0.85rem;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .used {
+        font-size: 0.75rem;
+        margin-bottom: 10px;
+    }
+
+    .view-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
