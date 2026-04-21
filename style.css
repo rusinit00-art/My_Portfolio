@@ -1928,3 +1928,47 @@ body {
 
 
 
+
+
+
+/* ===================TABLET VIEW (768px - 1024px)======================================================================= */
+@media (max-width: 1024px) {
+    .about-area {
+        padding: 60px 5%;
+    }
+
+    .about-main-content {
+        gap: 40px;
+    }
+
+    .about-img-box {
+        width: 250px;
+        height: 250px;
+    }
+
+    .hello-text {
+        font-size: 3.5rem;
+    }
+
+    .about-title {
+        font-size: 2.5rem;
+    }
+}
+
+/* MOBILE PHONE VIEW (767px ට අඩු සියලුම Phones)*/
+@media (max-width: 767px) {
+    .about-area {
+        padding: 50px 5% !important;
+        height: auto !important;
+    }
+
+    .about-main-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+
+
+
