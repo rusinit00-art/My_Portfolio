@@ -1969,6 +1969,66 @@ body {
         margin-bottom: 50px;
     }
 
+    .about-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-img-box {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 20px;
+    }
+
+    .about-right {
+        width: 100%;
+    }
+
+    .hello-text {
+        font-size: 2.8rem;
+    }
+
+    .about-title {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .about-description {
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .skills-label {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .skills-slider {
+        border-radius: 30px;
+        margin: 10px 0;
+    }
+
+    .skill-card {
+        width: 120px;
+        height: 90px;
+        min-width: 120px;
+        padding: 10px;
+    }
+
+    .skill-card i {
+        font-size: 1.8rem;
+    }
+
+    .skill-card span {
+        font-size: 0.75rem;
+        letter-spacing: 1px;
+    }
+}
+
+
 
 
 
