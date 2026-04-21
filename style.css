@@ -1761,3 +1761,19 @@ body {
     filter: drop-shadow(4px 4px 0px rgb(182, 149, 209));
     transform: scale(1.02);
 }
+
+
+/* title icon */
+.about-title,
+.education-main-title,
+.projects-main-title,
+.assignment-main-title,
+.special-main-title,
+.gallery-main-title,
+.contact-main-title {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    transition: all 0.4s ease;
+}
+
