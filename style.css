@@ -550,23 +550,15 @@ body {
 }
 
 .about-title {
+    position: relative;
+    display: inline-block;
+    margin: 0;
     font-size: 3rem;
     color: #311b92;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-}
- /*============fontawesome icon web > icon click > uni code >  \ copy and replace ==================*/
-.about-title::before {
-    content: "\f007";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    position: absolute;
-    left: -20px;
-    top: -10px;
-    font-size: 5rem;
-    color: rgba(154, 2, 154, 0.05);
-    z-index: -1;
+    z-index: 1;
 }
 
 .about-description {
@@ -689,17 +681,6 @@ body {
     justify-content: center;
 }
 
-.education-main-title:before {
-    content: "\f518";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    position: absolute;
-    left: -20px;
-    top: -10px;
-    font-size: 5rem;
-    color: rgba(154, 2, 154, 0.05);
-    z-index: -1;
-}
 .education-main-title {
     font-size: 3rem;
     color: #311b92;
@@ -707,7 +688,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
-
 
 .education-grid {
     display: flex;
@@ -853,17 +833,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
-.projects-main-title:before {
-    content: "\f109";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    position: absolute;
-    left: -20px;
-    top: -10px;
-    font-size: 5rem;
-    color: rgba(154, 2, 154, 0.05);
-    z-index: -1;
-}
 
 .project-grid {
     display: grid;
@@ -982,19 +951,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
-.assignment-main-title:before {
-    content: "\f02d";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    position: absolute;
-    left: -20px;
-    top: -10px;
-    font-size: 5rem;
-    color: rgba(154, 2, 154, 0.05);
-    z-index: -1;
-}
-
-
 .assignment-title-wrapper {
     display: flex;
     align-items: center;
@@ -1184,17 +1140,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
-.special-main-title:before {
-    content: "\f559";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    position: absolute;
-    left: -20px;
-    top: -10px;
-    font-size: 5rem;
-    color: rgba(154, 2, 154, 0.05);
-    z-index: -1;
-}
+
 .special-top-row {
     display: flex;
     gap: 40px;
@@ -1424,17 +1370,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
-.gallery-main-title:before {
-    content: "\f87c";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    position: absolute;
-    center:0px;
-    top: -10px;
-    font-size: 5rem;
-    color: rgba(154, 2, 154, 0.05);
-    z-index: -1;
-}
+
 .category-card {
     width: calc(33.33% - 40px);
     min-width: 320px;
@@ -1613,13 +1549,20 @@ body {
     align-items: flex-end;
     gap: 20px;
     margin-bottom: 30px;
+    position: relative;
 }
 .input-row label {
     font-weight: 700;
-    color: #311b92;
+    color: #7266ac;
     min-width: 80px;
+    text-transform: uppercase;
     text-align: left;
     font-size: 1.1rem;
+}
+
+.input-row:hover label {
+    letter-spacing: 2px;
+    filter: drop-shadow(2px 2px 5px rgba(154, 2, 154, 0.2));
 }
 .input-row input, .input-row textarea {
     flex: 1;
@@ -1635,6 +1578,29 @@ body {
 .input-row input:focus, .input-row textarea:focus {
     border-bottom-color: #9a029a;
     background: rgba(154, 2, 154, 0.05);
+}
+.input-row::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+    height: 3px;
+    background: #b105b1;
+    transform: scaleX(0);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+}
+.input-row:focus-within::after {
+    transform: scaleX(1);
+    bottom: -8px;
+    opacity: 1;
+    box-shadow: 0 5px 10px rgba(154, 2, 154, 0.2);
+}
+
+.input-row input:focus, .input-row textarea:focus {
+    background: rgba(154, 2, 154, 0.05);
+    border-bottom-color: transparent;
 }
 .send-btn {
     background: linear-gradient(45deg, #311b92, #9a029a);
@@ -1740,11 +1706,11 @@ body {
     position: fixed;
     bottom: 30px;
     left: 30px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(99, 97, 97, 0.17);
     backdrop-filter: blur(10px);
     padding: 10px 20px;
     border-radius: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(27, 26, 26, 0.34);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -1795,5 +1761,3 @@ body {
     filter: drop-shadow(4px 4px 0px rgb(182, 149, 209));
     transform: scale(1.02);
 }
-
-
