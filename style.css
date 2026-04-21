@@ -2195,6 +2195,95 @@ body {
 }
 
 
+/* TABLET & SMALL LAPTOP (901px - 1300px) */
+@media (max-width: 1300px) {
+    .assignment-area {
+        padding: 60px 5%;
+    }
+
+    .assignments-wrapper {
+
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .assignment-main-title {
+        font-size: 2.5rem;
+    }
+}
+
+/*SMALL TABLET & LARGE PHONE (601px - 900px)*/
+@media (max-width: 900px) {
+    .assignments-wrapper {
+
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .assignment-side {
+        width: 100%;
+    }
+
+    .cases-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* MOBILE PHONE VIEW (Max-width: 600px) */
+@media (max-width: 600px) {
+    .assignment-area {
+        padding: 40px 5%;
+        height: auto;
+    }
+
+    .assignment-main-title {
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+    }
+
+
+    .assignment-main-title:before {
+        font-size: 3.5rem;
+        left: -10px;
+        top: -5px;
+    }
+
+    .assignment-side {
+        padding: 20px;
+    }
+
+    .side-header h3 {
+        font-size: 1.1rem;
+    }
+
+    .repo-btn {
+        padding: 5px 12px;
+        font-size: 0.7rem;
+    }
+
+
+    .cases-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .case-card {
+        padding: 15px;
+    }
+
+    .btn {
+        padding: 5px;
+        font-size: 0.7rem;
+    }
+
+    .viewbtn {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+
 
 
 
