@@ -117,7 +117,6 @@ body {
 }
 .progress-bar {
     height: 5px;
-    /*background: linear-gradient(to right, #6a59b6, #c377cf, #6c5cb6);*/
     background: linear-gradient(to right, #9083ca, #c377cf, #6c6298);
     width: 0%;
     transition: 0.1s;
